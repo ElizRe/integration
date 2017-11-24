@@ -7,25 +7,53 @@
 	<title>Integration</title>
 </head>
 <body>
+	<h1>Airbnb
+</h1>
 <div>
-	<h3>Explorer Airbnb</h3>
-
-		<div>
-			<div class="bouttons">
-				<div class="centre"><img src="images.kris/logements-general.jpg" alt="Ne peut s'afficher" class="fotobouttons">
-				<p class="titrebouttons">Logements</p></div>
-			</div>	
-
-		<div class="bouttons">
-			<img src="images.kris/experiences-general.jpg" alt="Ne peut s'afficher" class="fotobouttons">
-			<p class="titrebouttons">Expériences</p>
-		</div>
-
-		<div class="bouttons">
-			<img src="images.kris/restaurants-general.jpg" alt="Ne peut s'afficher" class="fotobouttons">
-			<p class="titrebouttons">Restaurants</p>
-		</div>
+<h2>Réservez des logements </h2>
+<h2>uniques et vivez là-bas</h2>
+<h2>comme des locaux.</h2>
+</div>
+<div id="tfheader">
+	<form id="tfnewsearch" method="get" action="https://www.airbnb.fr">
+		<input type="text" class="tf text input" name="q" placeholder="Essayez ‹‹Sicile››" size="50" maxlength="120"
+		height="50">
+		<input type="submit" value="Rechercher" class="tfbutton">
+	</form>
+	<div class="tfclear">
 	</div>
+</div>
+	<div>
+<h3 id="h3kris">Explorer Airbnb</h3>
+
+<div>
+<div class="bouttons">
+	<div>
+	<img src="images.kris/logements-general.jpg" alt="Ne peut s'afficher" class="fotobouttons">
+	</div>
+	<div>
+		<p class="titrebouttons">Logements</p>
+	</div>
+</div>	
+
+<div class="bouttons">
+	<div>
+	<img src="images.kris/experiences-general.jpg" alt="Ne peut s'afficher" class="fotobouttons">
+	</div>
+	<div>
+	<p class="titrebouttons">Expériences</p>
+	</div>
+</div>
+
+<div class="bouttons">
+	<div>
+	<img src="images.kris/restaurants-general.jpg" alt="Ne peut s'afficher" class="fotobouttons">
+	</div>
+	<div>
+	<p class="titrebouttons">Restaurants</p>
+	</div>
+</div>
+</div>
 </div>
 	<div class="slide_experiences">
 		<div><h3 class="titre_slide_tables">Expériences</h3></div><div class="plus">Plus ></div>
@@ -121,14 +149,25 @@
 	</div>
 </div>
 <footer>
+		<div id="blocselect">
 	<div>
-		<p>Français</p>
+	<select class="select">
+  <option value="valeur1" selected="valeur1">Français</option> 
+  <option value="valeur2" >Deutsh</option>
+  <option value="valeur3">English</option>
+</select>
 	</div>
 	<div>
-		<p>Euro</p>
+	<select class="select">
+  <option value="valeur4" selected="valeur4">Euro</option> 
+  <option value="valeur5" >Dollar Américain</option>
+  <option value="valeur6">Livre Sterling</option>
+</select>
+	</div>
 	</div>
 	<div>© Airbnb, Inc.</div>
 	<div>
+	<div class="bloctextfooter">
 		<p>Airbnb<br>
 			A propos d'Airbnb<br>
 			Carrières<br>
@@ -137,7 +176,8 @@
 			Aide<br>
 			Diversité et intégration</p>
 	</div>
-	<div>
+
+	<div class="bloctextfooter">
 		<p>Découvrir<br>
 			Confiance et sécurité<br>
 			Crédit voyage<br>
@@ -146,14 +186,20 @@
 			Guides<br>
 			Airbnbmag</p>
 	</div>
-	<div>
+
+	<div class="bloctextfooter">
 		<p>Hébergement<br>
 			Pourquoi être hôte<br>
 			Hospitalité<br>
 			Hébergement responsable<br>
 			Community Center</p>
 	</div>
-	<span>Conditions Politique de Confidentialité Plan du site</span>
+	<br>
+<hr>
+	<div>
+	<div class="pieddepage">© Airbnb, Inc.</div>
+
+	<span class="pieddepage">Conditions Politique de Confidentialité Plan du site</span>
+	</div>
 </footer>
-</body>
 </html>
