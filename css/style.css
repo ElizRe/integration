@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #h3kris {
+=======
+<<<<<<< Updated upstream
+h3 {
+>>>>>>> 92cef4cfbad487c12a8f7304238a3970b6b0989c
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 25px;
@@ -36,6 +41,7 @@
 	height: 74px;
 	width: 42%;
 	position: relative;
+<<<<<<< HEAD
 	display: inline-block;
 }
 
@@ -55,6 +61,8 @@
 .pieddepage {
 	display: inline-block;
 	position: relative;
+=======
+>>>>>>> 92cef4cfbad487c12a8f7304238a3970b6b0989c
 }
 
 .titre_slide_tables {
@@ -212,4 +220,69 @@
 .image_text {
 	float:left;
 	cursor: pointer;
+<<<<<<< HEAD
 }
+=======
+}
+=======
+body {background-color: #ffffff;
+	}
+h1 {font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+	font-size: 47.8px;
+	font-style:normal;
+	font-weight: 700;
+	color: #FF5A5F;
+	text-align: left;
+	}
+h2 { font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+	font-size: 47.8px;
+	font-style:normal;
+	font-weight: 400;
+	line-height: 0.2;
+	text-align: left;
+}
+#tfheader{
+		background-color:#FAFAFB;
+		border: 1px;
+		border-style: inherit;
+		box-shadow: 20px;
+	}
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:19px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;search bar
+		font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+		font-size:19px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #fafafb;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #ff5a5f;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+>>>>>>> Stashed changes
+>>>>>>> 92cef4cfbad487c12a8f7304238a3970b6b0989c
