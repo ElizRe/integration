@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-h3 {
+#h3kris {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 25px;
@@ -37,7 +36,27 @@ h3 {
 	height: 74px;
 	width: 42%;
 	position: relative;
-=======
+	display: inline-block;
+}
+
+#blocselect {
+	display: inline-block;
+	position: relative;
+}
+.select {
+
+}
+
+.bloctextfooter {
+	display: inline-block;
+	position: relative;
+}
+
+.pieddepage {
+	display: inline-block;
+	position: relative;
+}
+
 .titre_slide_tables {
 	font-family: 'Circular',-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 	font-weight:700;
@@ -193,5 +212,4 @@ h3 {
 .image_text {
 	float:left;
 	cursor: pointer;
->>>>>>> 2570aa95ee516f86413bba1b4b6b8cc34649221e
 }
