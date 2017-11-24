@@ -297,3 +297,11 @@ h2 { font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica
 	.tfclear{
 		clear:both;
 	}
+.chiffre_etoiles {
+	font-size: 12px;
+}
+
+.etoiles {
+	margin-top: 0px;
+	float:left;
+}
