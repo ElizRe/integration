@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h3 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
@@ -37,7 +36,8 @@ h3 {
 	height: 74px;
 	width: 42%;
 	position: relative;
-=======
+}
+
 .titre_slide_tables {
 	font-family: 'Circular',-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
 	font-weight:700;
@@ -193,5 +193,4 @@ h3 {
 .image_text {
 	float:left;
 	cursor: pointer;
->>>>>>> 2570aa95ee516f86413bba1b4b6b8cc34649221e
 }
