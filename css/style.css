@@ -51,6 +51,13 @@ h3 {
 }
 
 .slide_tables {
+	padding-top: 280px;
+	box-sizing: border-box;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.slide_experiences {
 	margin-top: 40px;
 	box-sizing: border-box;
 	margin-left: 10%;
@@ -72,6 +79,7 @@ h3 {
 	font-size: 14px;
 	color:#484848;
 	line-height: 18px;
+	margin-right:50px;
 }
 
 .image1_slide_tables {
@@ -95,19 +103,20 @@ h3 {
 	color: rgb(156, 32, 23);
 	cursor: pointer;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 0px;
 }
 
 .text_image2 {
 	color: #484848;
 	font-size: 19px;
-	line-height: 10px;
+	line-height: 20px;
+	max-width: 246px;
 }
 
 .text_image3 {
 	color: #484848;
 	font-size: 15px;
-	line-height: 40px;
+	line-height: 30px;
 	letter-spacing: 0.2px;
 }
 
@@ -115,14 +124,14 @@ h3 {
 	color:rgb(63, 29, 15);
 	cursor: pointer;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 0px;
 }
 
 .text_image5 {
 	color:rgb(224, 42, 66);
 	cursor: pointer;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 0px;
 }
 
 .text_image_global {
@@ -185,6 +194,13 @@ h3 {
 	line-height: 12px;
 }
 
+.text_image12 {
+	color:rgb(144, 88, 60);
+	font-size: 12px;
+	line-height: 0px;
+	letter-spacing: 0.4px;
+}
+
 .text_image_global6 {
 	float:left;
 	cursor:pointer;
@@ -193,4 +209,9 @@ h3 {
 .image_text {
 	float:left;
 	cursor: pointer;
+}
+
+.centre {
+	text-align: center;
+	vertical-align: middle;
 }
