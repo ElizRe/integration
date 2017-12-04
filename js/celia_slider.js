@@ -1,6 +1,7 @@
   $(document).ready(function(){
   	$('.carousel').carousel({dist: 0, shift: 10, padding: 10});
 
+console.log('ici');
 
   	$(".navButtonLeft").click(function() {
   		if (this.id == "buttonLeft1") {$('#carousel1').carousel('prev');}
