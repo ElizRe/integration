@@ -7,6 +7,10 @@
   background-color: #e51c23 !important;
 }
 
+.materialize-pics-experiences {
+  background-image: url('https://picsum.photos/194/129')
+}
+
 .materialize-red-text {
   color: #e51c23 !important;
 }
@@ -8214,7 +8218,6 @@ input[type=range]:focus::-ms-fill-upper {
 .carousel.carousel-slider .carousel-item {
   width: 100%;
   height: 100%;
-  min-height: 400px;
   position: absolute;
   top: 0;
   left: 0;
@@ -8309,10 +8312,19 @@ input[type=range]:focus::-ms-fill-upper {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
           animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-  -webkit-transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s 1s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s;
-  transition: opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s,
+ -webkit-transform .3s;
 }
 
 .tap-target {
@@ -8365,10 +8377,19 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tap-target-wave::after {
   visibility: hidden;
-  -webkit-transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, visibility 0s, -webkit-transform .3s;
-  transition: opacity .3s, transform .3s, visibility 0s;
-  transition: opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;
+  -webkit-transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ visibility 0s,
+ -webkit-transform .3s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
+  transition: opacity .3s,
+ transform .3s,
+ visibility 0s,
+ -webkit-transform .3s;
   z-index: -1;
 }
 
@@ -9386,4 +9407,87 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-width: 4;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
+}
+
+#footer {
+  margin-top: 50px;
+  border-top-width: 1px;
+  border-top-color: #e0e0e0;
+  border-top-style: solid;
+}
+
+#dropdown1 {
+  color:white;
+}
+
+.btn#btn1 {
+  background-color: white;
+  color:black;
+  border-color: #e0e0e0;
+  border-style: solid;
+  border-width: 1px;
+  height:46px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#marge {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 35px;
+}
+
+#bouton-taille {
+  width : 200px;
+  float:left;
+  height:200px;
+  margin-right: 35px;
+  color:#757575;
+}
+
+#bouton-taille2 {
+  width : 244px;
+  float:left;
+  height:200px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+#fleche-bas {
+  text-align: right;
+}
+
+#bas-footer {
+  border-top-color: #e0e0e0;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+#logo_gris {
+  float: left;
+  margin-top: 10px;
+}
+
+#p_footer {
+  float: left;
+  color:#757575;
+}
+
+#p2_footer {
+  float: left;
+}
+
+#droite_footer {
+  text-align: right;
+  width:700px;
+  margin-left: 580px;
+}
+
+#lien_noir {
+  color:#757575;
+}
+
+#title {
+  color:black;
 }

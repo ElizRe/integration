@@ -5,13 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-	<title>Integration</title>
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Airbnb</title>
 </head>
 <body>
 	<div class=""><h1>Airbnb</h1></div>
 <div class=""><b>Réservez des logements uniques et vivez là-bas comme des locaux.</b></div>
 <div id="">
-	<form id="tfnewsearch" method="get" action="https://www.airbnb.fr">
+	<form id="" method="get" action="https://www.airbnb.fr">
 		<input type="text" class="" name="q" placeholder="Essayez ‹‹Sicile››" size="50" maxlength="120"
 		height="50">
 		<input type="submit" value="Rechercher" class="">
@@ -53,37 +54,26 @@
 </div>
 	<div class="">
 		<div><h3 class="">Expériences</h3></div><div class="">Plus ></div>
-	</div>
-		<div class="">
-	<div class="">
-		<div><img class="" src="https://picsum.photos/246/164"/></div>
-		<div class=""><p><b>VIE NOCTURNE · TOKYO</b></p></div>
-		<div class=""><b>One Nite in Tokyo!!!</b></div>
-		<div class="">87€ par personne</div>
-		<div class=""><img src="img/etoiles.jpg"/></div><div class="">37</div>
-	</div>
-	<div class="">
-		<div><img class="" src="https://picsum.photos/246/164"/></div>
-		<div class=""><p><b>COURS DE PHOTO · NEW YORK</b></p></div>
-		<div class=""><b>Photo session on the Brooklyn Bridge</b></div>
-		<div class="">87€ par personne</div>
-		<div class=""><img src="img/etoiles.jpg"/></div><div class="">25</div>
-	</div>
-	<div class="">
-		<div><img class="" src="https://picsum.photos/246/164"/></div>
-		<div class=""><p><b>RANDONNEE GUIDEE · BARCELONE</b></p></div>
-		<div class=""><b>Montserrat Monastery & Hiking</b></div>
-		<div class="">62€ par personne</div>
-		<div class=""><img src="img/etoiles.jpg"/></div><div class="">28</div>
-	</div>
-	<div class="">
-		<div><img class="" src="https://picsum.photos/246/164"/></div>
-		<div class=""><p><b>ATELIER · LONDRES</b></p></div>
-		<div class=""><b>Learn Modern Calligraphy</b></div>
-		<div class="">76€ par personne</div>
-		<div class=""><img src="img/etoiles.jpg"/></div><div class="">13</div>
-	</div>
-</div>
+	</div>	
+  <div class="carousel carousel-slider center left" data-indicators="true" style="height: 164px; width: 246px">
+    <div class="carousel-item materialize-pics-experiences white-text" href=""></div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Second Panel</h2>
+      <p class="white-text">This is your second panel</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Third Panel</h2>
+      <p class="white-text">This is your third panel</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Fourth Panel</h2>
+      <p class="white-text">This is your fourth panel</p>
+    </div>
+  </div>
+  <div>
+       <a class="btn-floating btn-medium waves-effect waves-light white"><i class="material-icons black-text">keyboard_arrow_right</i></a>
+    </div>
+        
 	<div class="">
 		<div><h3 class="">Tables très prisées à travers le monde</h3></div><div class="">Plus ></div>
 	</div>
@@ -149,57 +139,71 @@
 	</div>
 </div>
 <footer>
-		<div id="">
-	<div>
-	<select class="">
-  <option value="valeur1" selected="valeur1">Français</option> 
-  <option value="valeur2" >Deutsh</option>
-  <option value="valeur3">English</option>
-</select>
-	</div>
-	<div>
-	<select class="">
-  <option value="valeur4" selected="valeur4">Euro</option> 
-  <option value="valeur5" >Dollar Américain</option>
-  <option value="valeur6">Livre Sterling</option>
-</select>
-	</div>
-	</div>
-	<div>© Airbnb, Inc.</div>
-	<div class="">
-		<p>Airbnb<br>
-			A propos d'Airbnb<br>
-			Carrières<br>
-			Presse<br>
-			Règles<br>
-			Aide<br>
-			Diversité et intégration</p>
+		<div id="footer">
+			<div id="marge">
+				<div id="bouton-taille2">
+	<!-- Dropdown Trigger -->
+  <a id="btn1" class="btn dropdown-button" href="#!" data-activates="dropdown1">Français<i class="material-icons right">expand_more</i></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">Espagnol</a></li>
+    <li><a href="#!">English</a></li>
+    <li><a href="#!">Latin</a></li>
+    <li><a href="#!">Portuguais</a>
+    <li><a href="#!">Allemand</a>
+  </ul><br>
+	<!-- Dropdown Trigger -->
+  <a id="btn1" class="btn dropdown-button" href="#!" data-activates="dropdown2">Euro<i class="material-icons right">expand_more</i></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown2' class='dropdown-content'>
+    <li><a href="#!">Livre</a></li>
+    <li><a href="#!">Dollar</a></li>
+    <li><a href="#!">Dirham</a></li>
+    <li><a href="#!">Couronne</a></li>
+    <li><a href="#!">Coquillage</a></li>
+  </ul></div>
+	<div id="bouton-taille">
+		<p><b id="title">Airbnb</b><br>
+			<a id="lien_noir" href="">A propos d'Airbnb</a><br>
+			<a id="lien_noir" href="">Carrières</a><br>
+			<a id="lien_noir" href="">Presse</a><br>
+			<a id="lien_noir" href="">Règles</a><br>
+			<a id="lien_noir" href="">Aide</a><br>
+			<a id="lien_noir" href="">Diversité et intégration</a></p>
 	</div>
 
-	<div class="">
-		<p>Découvrir<br>
-			Confiance et sécurité<br>
-			Crédit voyage<br>
-			Airbnb Citizen<br>
-			Voyage d'affaires<br>
-			Guides<br>
-			Airbnbmag</p>
+	<div id="bouton-taille">
+		<p><b id="title">Découvrir</b><br>
+			<a id="lien_noir" href="">Confiance et sécurité</a><br>
+			<a id="lien_noir" href="">Crédit voyage</a><br>
+			<a id="lien_noir" href="">Airbnb Citizen</a><br>
+			<a id="lien_noir" href="">Voyage d'affaires</a><br>
+			<a id="lien_noir" href="">Guides</a><br>
+			<a id="lien_noir" href="">Airbnbmag</a></p>
 	</div>
 
-	<div class="">
-		<p>Hébergement<br>
-			Pourquoi être hôte<br>
-			Hospitalité<br>
-			Hébergement responsable<br>
-			Community Center</p>
-	</div>
-	<br>
-<hr>
-	<div>
-	<div class="">© Airbnb, Inc.</div>
+	<div id="bouton-taille">
+		<p><b id="title">Hébergement</b><br>
+			<a id="lien_noir" href="">Pourquoi être hôte</a><br>
+			<a id="lien_noir" href="">Hospitalité</a><br>
+			<a id="lien_noir" href="">Hébergement responsable</a><br>
+			<a id="lien_noir" href="">Community Center</a></p>
+	</div><br><br><br><br><br><br><br><br><br><br>
 
-	<span class="">Conditions Politique de Confidentialité Plan du site</span>
+	<div id="bas-footer">
+		<img id="logo_gris" src="img/logo_gris.png"><p id="p_footer">© Airbnb, Inc</p>
 	</div>
+	<div id="droite_footer">
+		<p id="p2_footer"><span><a id="lien_noir" href="">Conditions</a></span><a id="lien_noir" href=""> Politique de confidentialité</a><a id="lien_noir" href=""> Plan du site</a></p>
+		<img id="logo_gris" src="img/logos.png">
+	</div>
+
+</div>
+</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	 <script type="text/javascript" src="js/materialize.js"></script>
 </body>
 </footer>
 </html>
