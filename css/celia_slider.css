@@ -1,0 +1,36 @@
+#cadre {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.vignette p {
+	margin-bottom: -5px;
+}
+
+.vignetteP1 {
+	color: orange;
+	
+}
+.vignetteP2 {
+	color: darkgrey;
+}
+.vignetteP3 {
+	color: darkgrey;
+}
+
+
+
+.carouselBox {
+	position: relative;
+}
+
+.navButtonLeft {
+	position: absolute;
+	left: -20px;
+	top: 110px;
+}
+
+.navButtonRight {
+	position: absolute;
+	right: -20px;
+	top: 110px;
+}
