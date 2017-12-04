@@ -1,0 +1,32 @@
+.bandeau-explorer {
+  justify-content: space-around;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+}
+
+.img-card {
+  vertical-align: middle;
+}
+
+.police-card {
+  font-size: 15px;
+  font-family: 'roboto', sans-serif;
+  color: #484848;
+  font-weight: 600;
+  letter-spacing: -0.6px;
+}
+
+.title-h3 {
+  font-family: 'roboto', sans-serif;
+  font-size: 25px;
+  letter-spacing: -0.6px;
+  font-weight: 700;
+  color: #484848;
+  margin-left: 10%;
+}
+
+.col.s3 {
+  padding-left: 0;
+  padding-right: 2%;
+}
